@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  //   outline: 1px solid;
+}
+
+body {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Overpass", sans-serif;
+  font-size: 0.9375rem;
+  background-color: $black;
+}
+
+p {
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}

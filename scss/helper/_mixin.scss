@@ -1,0 +1,10 @@
+@mixin mobile {
+  @media (max-width: 375px) {
+    @content;
+  }
+}
+
+@mixin size($w, $h: $w) {
+  width: $w;
+  height: $h;
+}

@@ -1,0 +1,13 @@
+.btn {
+  padding: 11px 0;
+  border-radius: 22.5px;
+  letter-spacing: 2px;
+}
+
+.btn-submit {
+  transition: 0.5s ease;
+  &:hover {
+    background-color: $white;
+    color: $primary-color;
+  }
+}

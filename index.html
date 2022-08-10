@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Interactive rating component</title>
+    <link rel="stylesheet" href="css/all.css" />
+  </head>
+  <body class="d-flex">
+    <!-- Rating state start -->
+    <div class="card">
+      <a href="#" class="favor d-flex bg-dark-blue"
+        ><img src="./img/icon-star.svg" alt=""
+      /></a>
+      <h1 class="text-lg text-white">How did we do?</h1>
+      <p class="mb-6 text-gray-500">
+        Please let us know how we did with your support request. All feedback is
+        appreciated to help us improve our offering! 1 2 3 4 5 Submit
+      </p>
+      <ul class="rating mb-8">
+        <li>
+          <label for="">
+            <input type="radio" name="rate-item" />
+            <span>1</span>
+          </label>
+        </li>
+        <li>
+          <label for="">
+            <input type="radio" name="rate-item" />
+            <span>2</span>
+          </label>
+        </li>
+        <li>
+          <label for="">
+            <input type="radio" name="rate-item" />
+            <span>3</span>
+          </label>
+        </li>
+        <li>
+          <label for="">
+            <input type="radio" name="rate-item" />
+            <span>4</span>
+          </label>
+        </li>
+        <li>
+          <label for="">
+            <input type="radio" name="rate-item" />
+            <span>5</span>
+          </label>
+        </li>
+      </ul>
+      <a href="#" class="btn btn-submit bg-primary text-center text-white"
+        >SUBMIT</a
+      >
+    </div>
+    <!-- Rating state end -->
+
+    <!-- Thank you state start -->
+    <div class="card thank-card">
+      <img src="img/illustration-thank-you.svg" alt="" class="mb-8" />
+      <p class="text-primary hint mb-8">You selected <span>4</span> out of 5</p>
+      <h1 class="text-lg text-white">Thank you!</h1>
+      <p class="mb-6 text-gray-500 text-center">
+        We appreciate you taking the time to give a rating. If you ever need
+        more support, don’t hesitate to get in touch!
+      </p>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Jamie Wu</a>.
+    </div>
+  </body>
+</html>

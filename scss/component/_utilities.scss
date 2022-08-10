@@ -1,0 +1,42 @@
+.text-lg {
+  font-size: 1.75rem;
+  line-height: 1;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-white {
+  color: $white;
+}
+
+.text-gray-500 {
+  color: $gray-500;
+}
+
+.text-primary {
+  color: $primary-color;
+}
+
+.bg-black {
+  background-color: $black;
+}
+.bg-primary {
+  background-color: $primary-color;
+}
+
+.bg-dark-blue {
+  background: $dark-blue;
+}
+
+.mb-6 {
+  margin-bottom: 24px;
+}
+.mb-8 {
+  margin-bottom: 32px;
+}

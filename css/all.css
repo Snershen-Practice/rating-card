@@ -244,6 +244,7 @@ input[type="radio"]:checked ~ span {
 }
 
 .thank-card {
+  padding-top: 34px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -257,5 +258,6 @@ input[type="radio"]:checked ~ span {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  display: none;
 }
 /*# sourceMappingURL=all.css.map */

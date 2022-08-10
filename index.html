@@ -14,31 +14,31 @@
   </head>
   <body class="d-flex">
     <!-- Rating state start -->
-    <div class="card">
+    <div class="card" id="rate-card">
       <a href="#" class="favor d-flex bg-dark-blue"
         ><img src="./img/icon-star.svg" alt=""
       /></a>
       <h1 class="text-lg text-white">How did we do?</h1>
       <p class="mb-6 text-gray-500">
         Please let us know how we did with your support request. All feedback is
-        appreciated to help us improve our offering! 1 2 3 4 5 Submit
+        appreciated to help us improve our offering!
       </p>
       <ul class="rating mb-8">
         <li>
           <label for="">
-            <input type="radio" name="rate-item" />
+            <input type="radio" name="rate-item" value="1" />
             <span>1</span>
           </label>
         </li>
         <li>
           <label for="">
-            <input type="radio" name="rate-item" />
+            <input type="radio" name="rate-item" value="2" />
             <span>2</span>
           </label>
         </li>
         <li>
           <label for="">
-            <input type="radio" name="rate-item" />
+            <input type="radio" name="rate-item" value="3" />
             <span>3</span>
           </label>
         </li>
@@ -64,19 +64,17 @@
     <!-- Thank you state start -->
     <div class="card thank-card">
       <img src="img/illustration-thank-you.svg" alt="" class="mb-8" />
-      <p class="text-primary hint mb-8">You selected <span>4</span> out of 5</p>
+      <p class="text-primary hint mb-8">
+        You selected <span class="result-num">4</span> out of 5
+      </p>
       <h1 class="text-lg text-white">Thank you!</h1>
       <p class="mb-6 text-gray-500 text-center">
         We appreciate you taking the time to give a rating. If you ever need
         more support, don’t hesitate to get in touch!
       </p>
     </div>
+    <!-- Thank you state end -->
 
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Jamie Wu</a>.
-    </div>
+    <script src="js/script.js"></script>
   </body>
 </html>

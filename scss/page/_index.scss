@@ -62,8 +62,10 @@ input[type="radio"] {
 }
 
 .thank-card {
+  padding-top: 34px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  display: none;
 }

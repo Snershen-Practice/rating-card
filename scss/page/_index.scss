@@ -4,7 +4,7 @@
   padding: 32px;
   border-radius: 30px;
   @include mobile {
-    margin: 0 16px;
+    margin: 0 24px;
   }
   h1 {
     margin-bottom: 7px;
@@ -29,6 +29,7 @@
   span {
     display: flex;
     justify-content: center;
+    user-select: none;
     align-items: center;
     @include size(51px);
     color: $gray-500;
@@ -42,6 +43,7 @@ input[type="radio"] {
   opacity: 0;
   display: block;
   position: absolute;
+  cursor: pointer;
   @include size(51px);
   transition: 0.2s ease;
   &:hover ~ span {
@@ -62,7 +64,8 @@ input[type="radio"] {
 }
 
 .thank-card {
-  padding-top: 34px;
+  padding-top: 45px;
+  padding-bottom: 45px;
   display: flex;
   flex-direction: column;
   justify-content: center;

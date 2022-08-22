@@ -13,9 +13,7 @@ body {
   font-family: "Overpass", sans-serif;
   font-size: 0.9375rem;
   background-color: $black;
-}
-
-p {
+  user-select: none;
   line-height: 1.5;
 }
 
